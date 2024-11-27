@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useRef, useState }, { useState, useEffect } from 'react';
 import './DetailsSection.css';
 
 const DetailsSection = ({

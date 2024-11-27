@@ -1,7 +1,7 @@
 
 // src/components/Map/MapContainer.jsx
 
-import React, { useEffect, useRef } from "react";
+import React, { useRef, useState }, { useEffect, useRef } from "react";
 import Map from "@arcgis/core/Map";
 import MapView from "@arcgis/core/views/MapView";
 import FeatureLayer from "@arcgis/core/layers/FeatureLayer";
